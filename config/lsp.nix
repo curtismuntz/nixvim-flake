@@ -1,3 +1,4 @@
+{
 plugins.lsp = {
       enable = true;
 
@@ -12,8 +13,9 @@ plugins.lsp = {
 
         rust-analyzer = {
           enable = true;
+	  installRustc = true;
           installCargo = true;
         };
       };
 };
-
+}
