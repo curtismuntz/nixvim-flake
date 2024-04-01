@@ -7,6 +7,7 @@
     ./luasnip.nix
     ./cmp.nix
     ./lsp.nix
+    ./keymaps.nix
   ];
   colorschemes.gruvbox.enable = true;
   globals.mapleader = " ";
@@ -31,10 +32,6 @@
 
     # does some focus things for just showing current function by changing color of other stuff to bg
     twilight.enable = true;
-
-    #sniprun.enable = true; # cool snippet runner when you highlight, but messes with shift-v + x
-
-    leap.enable = true; 
 
     # Does the little popup when you hit leader, etc.
     which-key.enable = true;
