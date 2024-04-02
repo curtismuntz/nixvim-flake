@@ -4,7 +4,6 @@ plugins.lsp = {
 
       servers = {
         tsserver.enable = true;
-	#ccls.enable = true;
 	clangd.enable = true;
 
         lua-ls = {

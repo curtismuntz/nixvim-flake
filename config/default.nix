@@ -18,6 +18,7 @@
     shiftwidth = 2;
     undofile = true;
     clipboard = "unnamedplus";
+    scrolloff = 10;
     #splitright = true;
     #splitdown = true;
   };
