@@ -27,6 +27,7 @@
     fidget.enable = true;
     # status line
     lualine.enable = true;
+    copilot-vim.enable = true;
 
     # Provides a tree. Neotree to show it, Neotree close to close it.
     neo-tree.enable = true;
