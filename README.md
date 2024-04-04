@@ -1,14 +1,12 @@
 # Nixvim template
 
-Started from the nixvim-flake example repo here: https://github.com/sachinchaudhary1808/nixvim-flake/tree/main
+This project was started from the nixvim template flake by:
 
-## Configuring
+```
+nix flake init --template github:nix-community/nixvim
+```
 
-To start configuring, just add or modify the nix files in `./config`.
-
-## Testing your new configuration
-
-To test your configuration simply run the following command
+## Running Neovim
 
 ```
 nix run .
