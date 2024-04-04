@@ -5,6 +5,7 @@ plugins.lsp = {
       servers = {
         tsserver.enable = true;
 	clangd.enable = true;
+	pyright.enable = true;
 
         lua-ls = {
           enable = true;
