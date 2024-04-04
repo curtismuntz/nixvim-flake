@@ -1,6 +1,6 @@
 # Nixvim template
 
-Started from the nixvim-flake template
+Started from the nixvim-flake example repo here: https://github.com/sachinchaudhary1808/nixvim-flake/tree/main
 
 ## Configuring
 
