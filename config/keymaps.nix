@@ -16,6 +16,14 @@
       desc = "info about things";
     };
   }
+  {
+    action = "<cmd>UndotreeToggle<CR>";
+    key = "<space>u"; # this line is changed
+    mode = "n";
+    options = {
+      desc = "Toggle Undo Tree.";
+    };
+  }
   ];
 }
 

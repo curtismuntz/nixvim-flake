@@ -36,6 +36,7 @@
 
     # does some focus things for just showing current function by changing color of other stuff to bg
     twilight.enable = true;
+    undotree.enable = true;
 
     # Does the little popup when you hit leader, etc.
     which-key.enable = true;
