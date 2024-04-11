@@ -1,6 +1,14 @@
 {
   keymaps = [
   {
+    action = "<cmd>ToggleTerm direction=float<CR>";
+    key = "<space>t"; 
+    mode = "n";
+    options = {
+      desc = "Toggle Terminal.";
+    };
+  }
+  {
     action = "<cmd>Neotree toggle<CR>";
     key = "<space>n"; # this line is changed
     mode = "n";
