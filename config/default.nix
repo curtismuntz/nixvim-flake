@@ -9,7 +9,11 @@
     ./lsp.nix
     ./keymaps.nix
   ];
-  colorschemes.gruvbox.enable = true;
+  #colorschemes.tokyonight.enable = true;
+  colorschemes.catppuccin = {
+    enable = true;
+    flavour = "latte";
+  };
   globals.mapleader = " ";
   globals.maplocalleader = " ";
   opts = {
