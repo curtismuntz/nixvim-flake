@@ -12,7 +12,7 @@
   #colorschemes.tokyonight.enable = true;
   colorschemes.catppuccin = {
     enable = true;
-    flavour = "latte";
+    #flavour = "latte";
   };
   globals.mapleader = " ";
   globals.maplocalleader = " ";
