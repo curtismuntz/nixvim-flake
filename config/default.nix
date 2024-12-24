@@ -29,6 +29,7 @@
   plugins = {
     # notifications
     fidget.enable = true;
+    markdown-preview.enable = true;
     # status line
     lualine.enable = true;
     copilot-vim.enable = true;
